@@ -82,6 +82,7 @@ public class Game {
 			Thread.currentThread().interrupt();
 		}
 
+
 		for(int i=0; i<board[0].length; i++) board[0][i] = "⬜";
 		for(int i=0; i<board[1].length; i++) board[0][i] = "⬜";
 		for(int i=0; i<board[2].length; i++) board[0][i] = "⬜";
@@ -90,6 +91,7 @@ public class Game {
 		for(int i=0; i<board[5].length; i++) board[0][i] = "⬜";
 		for(int i=0; i<board[6].length; i++) board[0][i] = "⬜";
 		for(int i=0; i<board[7].length; i++) board[0][i] = "⬜";
+
 
 		boolean playing = true;
 		while(playing) {
