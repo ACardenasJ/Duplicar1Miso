@@ -4,7 +4,7 @@ import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.util.Random;
 
-public class game {
+public class Game {
 
 	public void play() {
 		int player = 0;
@@ -82,6 +82,7 @@ public class game {
 			Thread.currentThread().interrupt();
 		}
 
+
 		for(int i=0; i<board[0].length; i++) board[0][i] = "⬜";
 		for(int i=0; i<board[1].length; i++) board[0][i] = "⬜";
 		for(int i=0; i<board[2].length; i++) board[0][i] = "⬜";
@@ -90,6 +91,7 @@ public class game {
 		for(int i=0; i<board[5].length; i++) board[0][i] = "⬜";
 		for(int i=0; i<board[6].length; i++) board[0][i] = "⬜";
 		for(int i=0; i<board[7].length; i++) board[0][i] = "⬜";
+
 
 		boolean playing = true;
 		while(playing) {
@@ -138,7 +140,7 @@ public class game {
 
 
 	public static void main(String[] args) {
-		game game = new game();
+		Game game = new Game();
 		game.play();
 	}
 }
