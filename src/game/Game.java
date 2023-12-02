@@ -4,7 +4,7 @@ import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.util.Random;
 
-public class Game {
+public class game {
 
 	public void play() {
 		int player = 0;
@@ -138,7 +138,7 @@ public class Game {
 
 
 	public static void main(String[] args) {
-		Game game = new Game();
+		game game = new game();
 		game.play();
 	}
 }
